@@ -2,7 +2,6 @@
 #include <cstdio>
 #include <netinet/in.h>
 
-
 void readme(){
 	printf("syntax : add-nbo <file1> <file2>\n");
 	printf("sample : add-nbo a.bin c.bin\n\n");
@@ -10,7 +9,6 @@ void readme(){
 
 int main(int argc, char* argv[]){
 	uint32_t num1, num2, result;
-	
 	if(argc <= 2) {
 	readme();
 	return 0;
